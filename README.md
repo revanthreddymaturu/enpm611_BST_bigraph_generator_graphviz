@@ -15,10 +15,9 @@ The script will generate a complete Binary Search Tree representing the prioriti
 ## Example
 
 ```python
-requirements = [6,8,10,9,3,5,4,7,2,1] (6 being the highest priority and 1 being the lowest)
-
-    ![image](https://github.com/revanthreddymaturu/enpm611_BST_bigraph_generator_graphviz/assets/49469625/5be805e5-0076-4a1a-8b06-5fefc8e22aa9)
-
+requirements = [6,8,10,9,3,5,4,7,2,1] #(6 being the highest priority and 1 being the lowest)
+```
+ ![image](https://github.com/revanthreddymaturu/enpm611_BST_bigraph_generator_graphviz/assets/49469625/5be805e5-0076-4a1a-8b06-5fefc8e22aa9)
 
 ## Customization
 You can customize the script to make any user story as the root node by changing the index of the root variable.
