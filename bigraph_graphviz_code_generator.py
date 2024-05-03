@@ -74,7 +74,8 @@ def generate_graphviz_code(new_req):
     graph_lines.append('}')
     return '\n'.join(graph_lines)
 
-# Example usage:
+# Example usage: 
+#Note: change this with your requirements priority list
 requirements = [1, 9, 19, 5, 2, 8, 21, 17, 4, 18, 10, 7, 6, 11, 20, 3, 24, 12, 13, 33, 23, 15, 25, 14, 16, 22, 26, 28, 29, 30, 27, 31, 32
 
 
