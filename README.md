@@ -23,9 +23,6 @@ requirements = [6,8,10,9,3,5,4,7,2,1] #(6 being the highest priority and 1 being
 You can customize the script to make any user story as the root node by changing the index of the root variable.
 Ensure the input list is sorted in ascending order for the Binary Search Tree to be constructed correctly.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contribution
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
 
