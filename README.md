@@ -1,6 +1,6 @@
 # Binary Search Tree Generator
 
-This Python script generates a Binary Search Tree (Bigraph) in Graphviz syntax using a list of requirements priorities as input. The script takes the priority list, where the first element is considered the highest priority, and constructs a complete Bigraph representing the priorities.
+This Python script generates a Binary Search Tree (Bigraph) in Graphviz syntax using a list of requirements priorities as input. The script takes the priority list, where the first element is considered as the priority of Requirement 1, and constructs a complete Bigraph representing the priorities(A lower priority number means higher ranking).
 
 ## Usage
 
@@ -15,13 +15,13 @@ The script will generate a complete Binary Search Tree representing the prioriti
 ## Example
 
 ```python
-requirements = [6,8,10,9,3,5,4,7,2,1] #(6 being the highest priority and 1 being the lowest)
+requirements = [6,8,10,9,3,5,4,7,2,1] #(Requirement #10 being the highest priority with priority value 1 and Requirement #3 being the lowest priority with priority value 10)
 ```
- ![image](https://github.com/revanthreddymaturu/enpm611_BST_bigraph_generator_graphviz/assets/49469625/5be805e5-0076-4a1a-8b06-5fefc8e22aa9)
+![image](https://github.com/revanthreddymaturu/enpm611_BST_bigraph_generator_graphviz/assets/49469625/ed0b87f5-cbf5-49e8-9b29-9a812bba962d)
+
 
 ## Customization
 You can customize the script to make any user story as the root node by changing the index of the root variable.
-Ensure the input list is sorted in ascending order for the Binary Search Tree to be constructed correctly.
 
 ## Contribution
 Contributions are welcome! Fork the repository, make your changes, and submit a pull request.
