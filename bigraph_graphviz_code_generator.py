@@ -80,7 +80,6 @@ requirements = [6,8,10,9,3,5,4,7,2,1]
 lenny=len(requirements)
 new_req=[]
 for i in range(1,lenny+1):
-    # new_req.append(Pair(i,lenny-requirements.index(i)))
     new_req.append(Pair(i,requirements[i-1]))
 graphviz_code = generate_graphviz_code(new_req)
 print(graphviz_code)
