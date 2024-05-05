@@ -1,9 +1,9 @@
 class Pair:
-    def __init__(self,key,value):
+    def _init_(self,key,value):
         self.key=key
         self.value=value
 class Node:
-    def __init__(self, Pair):
+    def _init_(self, Pair):
         self.left = None
         self.right = None
         self.Pair = Pair
@@ -13,7 +13,7 @@ def insert(root, pair):
     current_node = root
     while True:
         # If the key is more important (higher priority), it goes to the right
-        if pair.value > current_node.Pair.value:
+        if pair.value < current_node.Pair.value:
             # If no right child, place it here
             if not current_node.right:
                 current_node.right = Node(pair)
@@ -76,14 +76,11 @@ def generate_graphviz_code(new_req):
 
 # Example usage: 
 #Note: change this with your requirements priority list
-requirements = [6,8,10,9,3,5,4,7,2,1
-
-
-
-]
+requirements = [6,8,10,9,3,5,4,7,2,1]
 lenny=len(requirements)
 new_req=[]
 for i in range(1,lenny+1):
-    new_req.append(Pair(i,lenny-requirements.index(i)))
+    # new_req.append(Pair(i,lenny-requirements.index(i)))
+    new_req.append(Pair(i,requirements[i-1]))
 graphviz_code = generate_graphviz_code(new_req)
 print(graphviz_code)
