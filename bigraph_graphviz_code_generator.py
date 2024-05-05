@@ -1,9 +1,9 @@
 class Pair:
-    def _init_(self,key,value):
+    def __init__(self,key,value):
         self.key=key
         self.value=value
 class Node:
-    def _init_(self, Pair):
+    def __init__(self, Pair):
         self.left = None
         self.right = None
         self.Pair = Pair
